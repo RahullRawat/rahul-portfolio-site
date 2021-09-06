@@ -1,3 +1,3 @@
-# rahul portfolio
+# Rahul portfolio
 
-This is my personal portfolio.
+Hey! Welcome to my portfolio. It's coming up very soon..
