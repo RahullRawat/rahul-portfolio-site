@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--primary-color: #4338ca;
+	--Secondary-color: #191f42;
+	--light: #e0e7ff;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+/* navbar */
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5rem;
+	background-color: var(--primary-color);
+}
+
+/* logo */
+.nav-brand a {
+	font-size: 30px;
+	font-weight: 500;
+	padding-left: 100px;
+	color: white;
+	text-decoration: none;
+	line-height: 80px;
+}
+
+.nav-pills {
+	display: flex;
+	padding-right: 80px;
+}
+
+.list-item-inline {
+	display: inline-block;
+}
+
+.list-item-inline .link {
+	font-size: 18px;
+	padding: 0.4rem 1rem;
+	text-decoration: none;
+	color: white;
+	margin-right: 40px;
+	line-height: 80px;
+}
+
+.link:hover {
+	border: 1px solid white;
+}
+
+.link-active {
+	border: 1px solid white;
+}
+
+/* header */
+.hero {
+	text-align: center;
+	padding-top: 10rem;
+}
+
+.hero-img {
+	max-width: 80%;
+	margin: auto;
+	width: 600px;
+}
+
+.hero-heading {
+	font-size: 38px;
+	font-weight: 400;
+	padding-top: 2rem;
+	color: var(--Secondary-color);
+}
+
+.heading-inverted {
+	font-size: 42px;
+	font-weight: 500;
+	color: var(--primary-color);
+}
+
+.hero p {
+	max-width: 350px;
+	margin: auto;
+	font-size: 30px;
+	font-weight: 500;
+	color: var(--light);
+	background-color: var(--primary-color);
+	border-radius: 5px;
+	margin-top: 0.3rem;
+	margin-bottom: 10rem;
+}
+
+/* technologies */
+.ow {
+	background-color: var(--light);
+}
+
+.section {
+	padding: 6rem;
+	border-radius: 1rem;
+	text-align: center;
+}
+
+.section-content h1 {
+	font-size: 35px;
+	font-weight: 500;
+	margin-bottom: 1rem;
+	color: var(--Secondary-color);
+}
+
+.section-content p {
+	font-size: 23px;
+	letter-spacing: 1.5px;
+	margin-bottom: 2rem;
+}
+
+/* buttons */
+.link-primary {
+	font-size: 18px;
+	padding: 0.8rem 1.4rem;
+	background-color: var(--primary-color);
+	color: #fff;
+	border-radius: 2rem;
+	text-decoration: none;
+	transition: 0.3s ease-in;
+}
+
+.link-primary:hover {
+	background: transparent;
+	color: var(--primary-color);
+	border: 2px solid var(--primary-color);
+}
+
+/* footer */
+.footer {
+	background-color: var(--primary-color);
+	color: white;
+	padding: 5rem 1rem;
+	text-align: center;
+}
+
+.footer-header {
+	font-size: 25px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.footer ul li a {
+	margin: 30px;
+}
+
+.footer ul li a img {
+	width: 30px;
+}
+
+.footer p {
+	margin-top: 20px;
+}
