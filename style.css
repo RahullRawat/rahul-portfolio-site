@@ -9,7 +9,8 @@
 :root {
 	--primary-color: #4338ca;
 	--Secondary-color: #191f42;
-	--light: #e0e7ff;
+	--light: #f3f4f6;
+	/* #e0e7ff; */
 }
 
 body {
@@ -62,26 +63,29 @@ body {
 }
 
 /* header */
-.hero {
+.hero,
+.project {
 	text-align: center;
 	padding-top: 10rem;
 }
 
-.hero-img {
+.hero-img,
+.project-img {
 	max-width: 80%;
 	margin: auto;
 	width: 600px;
 }
 
-.hero-heading {
-	font-size: 38px;
-	font-weight: 400;
+.hero-heading,
+.project-heading {
+	font-size: 35px;
+	font-weight: 500;
 	padding-top: 2rem;
 	color: var(--Secondary-color);
 }
 
 .heading-inverted {
-	font-size: 42px;
+	font-size: 35px;
 	font-weight: 500;
 	color: var(--primary-color);
 }
@@ -109,15 +113,20 @@ body {
 	text-align: center;
 }
 
+.section-content {
+	max-width: 700px;
+	margin: auto;
+}
+
 .section-content h1 {
-	font-size: 35px;
+	font-size: 28px;
 	font-weight: 500;
 	margin-bottom: 1rem;
 	color: var(--Secondary-color);
 }
 
 .section-content p {
-	font-size: 23px;
+	font-size: 18px;
 	letter-spacing: 1.5px;
 	margin-bottom: 2rem;
 }
@@ -125,7 +134,7 @@ body {
 /* buttons */
 .link-primary {
 	font-size: 18px;
-	padding: 0.8rem 1.4rem;
+	padding: 0.6rem 1.4rem;
 	background-color: var(--primary-color);
 	color: #fff;
 	border-radius: 2rem;
@@ -136,7 +145,7 @@ body {
 .link-primary:hover {
 	background: transparent;
 	color: var(--primary-color);
-	border: 2px solid var(--primary-color);
+	border: 1px solid var(--primary-color);
 }
 
 /* footer */
@@ -163,4 +172,56 @@ body {
 
 .footer p {
 	margin-top: 20px;
+}
+
+/* projects page*/
+.project {
+	padding-top: 5rem;
+	margin-bottom: 5rem;
+}
+
+.project-heading {
+	font-size: 28px;
+}
+
+.project-section {
+	max-width: 800px;
+	margin: auto;
+	padding: 3rem;
+	text-align: center;
+	border-radius: 1rem;
+}
+
+.project-content h1 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.project-content h5 {
+	margin: 5px 0;
+}
+
+.project-content p {
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+/* project buttons */
+.project-button .btn {
+	font-size: 16px;
+}
+
+.project-button .link-secondary {
+	text-decoration: none;
+	padding: 0.6rem 1.2rem;
+	border: 1px solid var(--primary-color);
+	color: var(--primary-color);
+	border-radius: 2rem;
+	transition: 0.3s ease-in;
+}
+
+.project-button .link-secondary:hover {
+	background-color: var(--primary-color);
+	color: white;
 }
