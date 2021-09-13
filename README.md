@@ -1,3 +1,3 @@
 # Rahul portfolio
 
-Hey! Welcome to my portfolio. It's coming up very soon..
+Hey! Welcome to my portfolio. I will showcase all my projects here...
