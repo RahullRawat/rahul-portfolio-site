@@ -225,3 +225,60 @@ body {
 	background-color: var(--primary-color);
 	color: white;
 }
+
+/* blogs */
+.blog-heading {
+	margin-top: 2rem;
+	margin-bottom: 4rem;
+}
+
+.tl {
+	text-align: left;
+}
+
+/* blog page */
+.blog-container {
+	max-width: 800px;
+	margin: auto;
+	text-align: center;
+	margin-top: 3rem;
+}
+
+.blog-container h1 {
+	font-size: 40px;
+}
+
+.blog-container img {
+	width: 100%;
+}
+
+.blog-one {
+	text-align: left;
+	margin-bottom: 5rem;
+}
+
+.blog-one p {
+	font-size: 19px;
+	margin-top: 2rem;
+	color: gray;
+}
+
+.blog-one p .bold {
+	font-size: 20px;
+	font-weight: 500;
+	color: #000;
+	opacity: 0.8;
+}
+
+.blog-bottom h4 {
+	font-size: 30px;
+	margin-top: 3rem;
+}
+
+.blog-bottom p {
+	margin-top: 1rem;
+}
+
+.blog-bottom img {
+	margin-top: 5rem;
+}
